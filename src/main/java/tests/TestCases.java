@@ -121,7 +121,7 @@ public class TestCases {
 
     //  Verify that Create Account Button is grayed when an existing email id is inserted in Join Github page
     @Test
-    private void check_create_accntbtn() {
+    private void join_github_page() {
         driver.get(URL);
         pageElements.getSignUpLink().click();
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
