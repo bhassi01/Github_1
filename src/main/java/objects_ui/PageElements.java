@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class PageElements {
 
-    WebDriver driver;
+    private WebDriver driver;
 
     public PageElements(WebDriver driver) {
         this.driver = driver;
